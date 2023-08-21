@@ -1,0 +1,34 @@
+.container {
+    display: flex;
+    justify-content: center;
+    /* height: 100vh; */
+    padding-top: 50px;
+}
+
+.main {
+    width: 800px;
+    height: 100%;
+
+}
+.title {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.listHeader {
+    list-style: none;
+    width: 100%;
+    display: flex;
+    border-bottom: 1px solid #c4c0c0;
+
+}
+.tableHeaderItem{
+    flex: 1;
+    padding: 10px;
+}
+
+.listBody {
+    height: auto;
+    overflow: auto;
+}
